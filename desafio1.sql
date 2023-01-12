@@ -7,7 +7,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   CREATE TABLE SpotifyClone.plano(
       plano_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
       plano VARCHAR(120) NOT NULL,
-      valor DOUBLE NOT NULL
+      valor DECIMAL(4,2) NOT NULL
       );
 
   CREATE TABLE SpotifyClone.usuario(
